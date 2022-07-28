@@ -1,3 +1,6 @@
+#Задайте список из нескольких чисел. Напишите программу, которая найдёт сумму элементов списка, 
+#стоящих на нечётной позиции.
+
 def getSumOdds(aList):
     sum = 0
     for i in range(0, len(aList)):
@@ -5,6 +8,6 @@ def getSumOdds(aList):
             sum = sum + aList[i]
     return sum
 
-array = [1,3,25,2,7]
+array = [1,3,5,9,3]
 result = getSumOdds(array)
 print(result)
